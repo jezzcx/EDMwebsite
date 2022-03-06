@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dubstep</title>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">  
+      
+    <script src="https://kit.fontawesome.com/6f917e9db0.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+
+      
+  <div class="outer-container">
+  <img src="img/thatmaraudasong.jpg" alt="Marauda' That Maruada Song cover" id="background" />
+  <audio src="/Audio/MARAUDA%20-%20THAT%20MARAUDA%20SONG-scI4ZNNaH2g.mp4" id="track"></audio>
+</div>
+
+<div class="player-container">
+  <img src="img/thatmaraudasong.jpg" alt="Marauda' That Maruada Song cover" id="thumbnail" />
+
+  <div class="box">
+    <div class="play-pause">
+      <i class="far fa-play-circle fa-3x" id="play"></i>
+      <i class="far fa-pause-circle fa-3x" id="pause"></i>
+    </div>
+    <div class="track-info">
+      <div id="track-artist">Marauda</div>
+      <div id="track-title">That Marauda Song</div>
+    </div>
+<!--
+    <div class="next-prev">
+      <i class="far fa-arrow-alt-circle-left fa-2x" id="prev-track"></i>
+      <i class="far fa-arrow-alt-circle-right fa-2x" id="next-track"></i>
+    </div>
+-->
+    <div class="progress-bar">
+      <input type="range" id="progressBar" min="0" max="" value="0" />
+    </div>
+    <div class="track-time">
+      <div id="currentTime"></div>
+      <div id="durationTime"></div>
+    </div>
+  </div>
+</div>
+      
+<script src="scripts/main.js"></script>
+
+
+  </body>
+  </html>
